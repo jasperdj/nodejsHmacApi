@@ -1,0 +1,23 @@
+{
+  "name": "hmacapimock",
+  "version": "1.0.0",
+  "description": "Mock hmac security \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D based security api",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log()\u001b[D''\u001b[Dtest\u001b[C\u001b[D');"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hmacApiMock"
+  },
+  "keywords": [
+    "hmac",
+    "api",
+    "express",
+    "mock",
+    "node",
+    "nodejs"
+  ],
+  "author": "Jasper de Jong",
+  "license": "ISC"
+}
