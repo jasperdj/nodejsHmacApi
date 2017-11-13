@@ -2,9 +2,9 @@
   "name": "hmacapimock",
   "version": "1.0.0",
   "description": "Mock hmac security \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D based security api",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "console.log()\u001b[D''\u001b[Dtest\u001b[C\u001b[D');"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,11 @@
   "author": "Jasper de Jong",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "flat-file-db": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
