@@ -19,5 +19,8 @@
     "nodejs"
   ],
   "author": "Jasper de Jong",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
