@@ -29,7 +29,6 @@ app.listen(port, () => {
     console.log('We are live on ' + port);
 });
 
-
 function getRequestVariables(req) {
     var requestUri = encodeURI(req.headers.host + req.url);
     var content = req.body;
